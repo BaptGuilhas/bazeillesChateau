@@ -16,7 +16,7 @@
     width: 100vw;
     display: grid;
     grid-template-columns: 60% 40%;
-    grid-template-rows: 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr 1fr;
   }
   
   /* li {
@@ -51,7 +51,7 @@
 
 #text {
     grid-column: 1/-1;
-    grid-row:  3/3;
+    grid-row:  3/4;
     overflow-y: scroll;
     font-size: 1.3em;
     margin: 20px;
@@ -69,7 +69,7 @@
     display: grid;
     grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
     justify-content: center;
-    margin-top: 80px;
+    margin-top: 3px;
 }
 
 #buttonPlay {
